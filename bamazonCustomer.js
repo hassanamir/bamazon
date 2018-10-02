@@ -27,7 +27,7 @@ connection.query(query, function (err, res, fields) {
     postQuestion();
 });
 function postQuestion() {
-    // prompt for info about the item being put up for auction
+    // i guess i could figure how to set up the prop for user imput but i have my all data working fine
     inquirer
         .prompt([
             {
